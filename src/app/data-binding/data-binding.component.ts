@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 export class DataBindingComponent {
    public title="Hello from BridgeLabz";
    public url="../../assets/BridgeLabz-Logo-2.png";
+  public bzurl="https://www.bridgelabz.com/";
 
+  onClick($event:any){
+    console.log("Save button is clicked", $event);
+    window.open(this.bzurl,"_blank");
+  }
 }
