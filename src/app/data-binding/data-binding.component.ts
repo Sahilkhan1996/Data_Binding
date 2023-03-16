@@ -9,6 +9,7 @@ export class DataBindingComponent {
    public title="Hello from BridgeLabz";
    public url="../../assets/BridgeLabz-Logo-2.png";
   public bzurl="https://www.bridgelabz.com/";
+  public user="Sahil";
 
   onClick($event:any){
     console.log("Save button is clicked", $event);
