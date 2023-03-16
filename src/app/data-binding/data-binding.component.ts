@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class DataBindingComponent {
    public title="Hello from BridgeLabz";
+   public url="../../assets/BridgeLabz-Logo-2.png";
 
 }
